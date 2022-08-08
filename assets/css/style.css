@@ -53,7 +53,7 @@ button.dark-mode:hover {
 	color: #e5e8e8;
 }
 
-.developer {
+footer {
     position: fixed;
     bottom: 0;
     padding: 20px;
@@ -61,6 +61,8 @@ button.dark-mode:hover {
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
+    background-color: #4e545c;
+    color: #e5e8e8;
     align-items: center;
     flex-wrap: wrap;
 }
