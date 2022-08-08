@@ -18,6 +18,18 @@ body {
     align-items: center;
 }
 
+button {
+	border-radius: 40px;
+	font-size: 0.8rem;
+	height: 50px;
+	width: 100px;
+	border: none;
+	background-color: #4e545c;
+	color: #e5e8e8;
+	transition: all 0.5s linear;
+}
+
+
 .developer {
     position: fixed;
     bottom: 0;
