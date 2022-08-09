@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilos -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Eventos</title>
 </head>
+
 <body>
+    <!-- Centralizado -->
     <main class="center">
-        <h1 id="title">Light Mode ON</h1>
-        <button aria-label="select-mode" id="mode-selector">Dark Mode</button>
+        <!-- Texto e botão que mudam ao clique -->
+        <article>
+            <header>
+                <h1 id="title">Light Mode ON</h1>
+            </header>
+
+            <p>
+                <button aria-label="select-mode" id="mode-selector">Dark Mode</button>
+            </p>
+        </article>
+
+        <!-- Rodapé que ficará fixado em bottom -->
+        <footer>
+            <p>&copy; <time datetime="2022">2022</time> Events JS</p>
+            <p>Desenvolvido por <span title="Dev: Mateus Araújo" id="name">Mateus Araújo</span></p>
+        </footer>
     </main>
 
-    <footer>
-        <p>&copy; <time datetime="2022">2022</time> Events JS</p>
-        <p>Desenvolvido por <span title="Dev: Mateus Araújo" id="name">Mateus Araújo</span></p>
-    </footer>
-
+    <!-- Scripts -->
     <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
