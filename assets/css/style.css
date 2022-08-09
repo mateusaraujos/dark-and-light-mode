@@ -4,17 +4,21 @@
     user-select: none;
 }
 
+h1 {
+    font-size: 28pt;
+}
+
 body {
     margin: 0;
     padding: 0;
-    background-color: #e5e8e8;
-	color: #4e545c;
+    background-color: #e5e5e5;
+	color: #5f5f5f;
     font-family: 'Raleway', sans-serif;
 }
 
 body.dark-mode {
-	background-color: #000401;
-	color: #e5e8e8;
+	background-color: #5f5f5f;
+	color: #e5e5e5;
 }
 
 .center {
@@ -35,47 +39,54 @@ body.dark-mode {
     flex-direction: column;
 }
 
+article header, article p {
+    margin: 0;
+}
+
 button {
 	border-radius: 40px;
-	font-size: 0.8rem;
+	font-size: 1rem;
 	height: 50px;
-	width: 100px;
+	width: 150px;
 	border: none;
-	background-color: #4e545c;
-	color: #e5e8e8;
-	transition: all 0.5s linear;
+	background-color: #5f5f5f;
+	color: #e5e5e5;
+	transition: all 0.2s linear;
     cursor: pointer;
 }
 
 button:hover {
-	background-color: #000401;
+    color: #5f5f5f;
+	background-color: #e5e5e5;
+    border: 5px solid #5f5f5f;
 }
 
 button.dark-mode {
-	background-color: #e5e8e8;
-	color: #4e545c;
+	background-color: #e5e5e5;
+	color: #5f5f5f;
 }
 
 button.dark-mode:hover {
-	background-color: #4e545c;
-	color: #e5e8e8;
+	background-color: #5f5f5f;
+	color: #e5e5e5;
+    border: 5px solid #e5e5e5;
 }
 
 footer {
     position: fixed;
     bottom: 0;
-    padding: 20px;
+    padding: 0 20px;
     text-align: center;
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
-    background-color: #4e545c;
-    color: #e5e8e8;
+    background-color: #5f5f5f;
+	color: #e5e5e5;
     align-items: center;
     flex-wrap: wrap;
 }
 
 footer.dark-mode {
-	background-color: #8d9797;
-	color: #000401;
+	background-color: #2a2a2a;
+    color: #a5a5a5;
 }
